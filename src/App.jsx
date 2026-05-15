@@ -104,7 +104,7 @@ export default function RuempelkraftWebsite() {
         </div>
       </section>
 
-      <section id="kontakt" className="bg-yellow-300 py-24 text-white">
+      <section id="kontakt" className="bg-yellow-500 py-24 text-white">
         <div className="mx-auto max-w-5xl px-6 text-center">
           <h3 className="text-5xl font-black">
             Jetzt kostenlos anfragen
