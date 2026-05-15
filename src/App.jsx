@@ -84,7 +84,7 @@ export default function RuempelkraftWebsite() {
               src={logo}
               alt="RümpelKraft Logo"
               className="max-h-[500px] rounded-[32px] object-contain shadow-[0_0_50px_rgba(253,224,71,0.3)]"
-            />
+              />
           </div>
         </div>
       </section>
