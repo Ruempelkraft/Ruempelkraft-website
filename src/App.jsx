@@ -72,7 +72,7 @@ export default function RuempelkraftWebsite() {
 
           <div>
             <img
-              {/* src=logo */}
+              src={logo}
               alt="rümpelkraft logo"
               className="rounded-[32px] shadow-2xl"
             />
