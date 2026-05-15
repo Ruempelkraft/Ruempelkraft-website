@@ -1,3 +1,5 @@
+import logo from './logo.png'
+
 export default function RuempelkraftWebsite() {
   const services = [
     {
@@ -13,68 +15,75 @@ export default function RuempelkraftWebsite() {
       text: 'Effiziente Räumungen von Geschäftslokalen und Büros.',
     },
     {
-      title: 'Abriss',
-      text: 'Auch kleinere Abrissarbeiten stehen am Plan.',
+      title: 'Entsorgung',
+      text: 'Umweltgerechte Entsorgung und Recycling.',
     },
   ];
 
   return (
-    <div className="min-h-screen bg-white text-zinc-900">
-      <header className="border-b bg-white">
+    <div className="min-h-screen bg-black text-white">
+      <header className="border-b border-zinc-800 bg-black">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <div>
-            <h1 className="text-2xl font-black">RümpelKraft</h1>
-            <p className="text-sm text-zinc-500">ruempelkraft.at</p>
+            <h1 className="text-2xl font-black text-yellow-300">
+              RümpelKraft
+            </h1>
+
+            <p className="text-sm text-zinc-400">
+              ruempelkraft.at
+            </p>
           </div>
 
           <a
             href="#kontakt"
-            className="rounded-2xl bg-yellow-500 px-5 py-2 text-sm font-semibold text-white"
+            className="rounded-2xl bg-yellow-300 px-5 py-2 text-sm font-semibold text-black shadow-[0_0_25px_rgba(253,224,71,0.8)] transition hover:scale-105"
           >
             Angebot anfragen
           </a>
         </div>
       </header>
 
-      <section className="bg-gradient-to-br from-yellow-100 via-white to-zinc-100">
+      <section className="bg-gradient-to-br from-black via-zinc-900 to-black">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 py-24 lg:grid-cols-2 lg:items-center">
           <div>
-            <div className="mb-6 inline-flex rounded-full border border-yellow-200 bg-yellow-50 px-4 py-2 text-sm font-medium text-yellow-700">
+            <div className="mb-6 inline-flex rounded-full border border-yellow-300/30 bg-yellow-300/10 px-4 py-2 text-sm font-medium text-yellow-300">
               Schnell • Zuverlässig • Professionell
             </div>
 
             <h2 className="text-5xl font-black leading-tight md:text-6xl">
               Entrümpelung mit
-              <span className="text-yellow-500"> Kraft & Vertrauen</span>
+              <span className="text-yellow-300">
+                {' '}Kraft & Vertrauen
+              </span>
             </h2>
 
-            <p className="mt-6 max-w-xl text-lg text-zinc-600">
-              Wir unterstützen Privatpersonen und Unternehmen bei Entrümpelungen,
-              Haushaltsauflösungen und Räumungen.
+            <p className="mt-6 max-w-xl text-lg text-zinc-400">
+              Wir unterstützen Privatpersonen und Unternehmen bei
+              Entrümpelungen, Haushaltsauflösungen und Räumungen.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
                 href="#kontakt"
-                className="rounded-2xl bg-yellow-500 px-6 py-4 font-semibold text-white"
+                className="rounded-2xl bg-yellow-300 px-6 py-4 font-semibold text-black shadow-[0_0_25px_rgba(253,224,71,0.8)] transition hover:scale-105"
               >
                 Kostenloses Angebot
               </a>
 
               <a
-                href="https://wa.me/436641666474"
-                className="rounded-2xl border border-zinc-300 px-6 py-4 font-semibold"
+                href="tel:+43123456789"
+                className="rounded-2xl border border-zinc-700 px-6 py-4 font-semibold hover:border-yellow-300 hover:text-yellow-300"
               >
-                Jetzt schreiben
+                Jetzt anrufen
               </a>
             </div>
           </div>
 
-          <div>
+          <div className="flex items-center justify-center">
             <img
               src={logo}
-              alt="rümpelkraft logo"
-              className="rounded-[32px] shadow-2xl"
+              alt="RümpelKraft Logo"
+              className="max-h-[500px] rounded-[32px] object-contain shadow-[0_0_50px_rgba(253,224,71,0.3)]"
             />
           </div>
         </div>
@@ -82,7 +91,7 @@ export default function RuempelkraftWebsite() {
 
       <section className="mx-auto max-w-7xl px-6 py-24">
         <div className="max-w-2xl">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-yellow-500">
+          <p className="text-sm font-bold uppercase tracking-[0.2em] text-yellow-300">
             Unsere Leistungen
           </p>
 
@@ -95,39 +104,72 @@ export default function RuempelkraftWebsite() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="rounded-3xl border border-zinc-200 bg-zinc-50 p-8"
+              className="rounded-3xl border border-zinc-800 bg-zinc-900 p-8 transition hover:border-yellow-300 hover:shadow-[0_0_30px_rgba(253,224,71,0.2)]"
             >
-              <h4 className="text-xl font-bold">{service.title}</h4>
-              <p className="mt-3 text-zinc-600">{service.text}</p>
+              <h4 className="text-xl font-bold text-yellow-300">
+                {service.title}
+              </h4>
+
+              <p className="mt-3 text-zinc-400">
+                {service.text}
+              </p>
             </div>
           ))}
         </div>
       </section>
 
-      <section id="kontakt" className="bg-yellow-500 py-24 text-white">
+      <section
+        id="kontakt"
+        className="border-t border-zinc-800 bg-black py-24"
+      >
         <div className="mx-auto max-w-5xl px-6 text-center">
-          <h3 className="text-5xl font-black">
+          <h3 className="text-5xl font-black text-yellow-300">
             Jetzt kostenlos anfragen
           </h3>
 
           <div className="mt-10 grid gap-4 md:grid-cols-3">
-            <div className="rounded-3xl bg-white/10 p-6">
-              <p className="text-sm uppercase">Telefon</p>
-              <p className="mt-3 text-2xl font-bold">+43 664 1666474</p>
+            <div className="rounded-3xl border border-zinc-800 bg-zinc-900 p-6">
+              <p className="text-sm uppercase text-zinc-400">
+                Telefon
+              </p>
+
+              <p className="mt-3 text-2xl font-bold">
+                +43 123 456789
+              </p>
             </div>
 
-            <div className="rounded-3xl bg-white/10 p-6">
-              <p className="text-sm uppercase">E-Mail</p>
-              <p className="mt-3 text-2xl font-bold">info@ruempelkraft.at</p>
+            <div className="rounded-3xl border border-zinc-800 bg-zinc-900 p-6">
+              <p className="text-sm uppercase text-zinc-400">
+                E-Mail
+              </p>
+
+              <p className="mt-3 text-2xl font-bold">
+                office@ruempelkraft.at
+              </p>
             </div>
 
-            <div className="rounded-3xl bg-white/10 p-6">
-              <p className="text-sm uppercase">Standort</p>
-              <p className="mt-3 text-2xl font-bold">Graz & Umgebung</p>
+            <div className="rounded-3xl border border-zinc-800 bg-zinc-900 p-6">
+              <p className="text-sm uppercase text-zinc-400">
+                Standort
+              </p>
+
+              <p className="mt-3 text-2xl font-bold">
+                Wien & Umgebung
+              </p>
             </div>
           </div>
         </div>
       </section>
+
+      <a
+        href="https://wa.me/436641234567"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 flex items-center gap-3 rounded-full bg-green-500 px-5 py-4 text-white shadow-2xl transition hover:scale-105 hover:bg-green-600"
+      >
+        <span className="text-2xl">💬</span>
+        <span className="font-semibold">WhatsApp</span>
+      </a>
     </div>
-  )
+  );
 }
