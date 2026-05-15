@@ -29,7 +29,7 @@ export default function RuempelkraftWebsite() {
 
           <a
             href="#kontakt"
-            className="rounded-2xl bg-yellow-300 px-5 py-2 text-sm font-semibold text-white"
+            className="rounded-2xl bg-yellow-500 px-5 py-2 text-sm font-semibold text-white"
           >
             Angebot anfragen
           </a>
