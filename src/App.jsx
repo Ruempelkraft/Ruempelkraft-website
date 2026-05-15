@@ -72,8 +72,8 @@ export default function RuempelkraftWebsite() {
 
           <div>
             <img
-              src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1600&auto=format&fit=crop"
-              alt="Entrümpelung"
+              src=(logo)
+              alt="rümpelkraft logo"
               className="rounded-[32px] shadow-2xl"
             />
           </div>
