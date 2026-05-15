@@ -13,8 +13,8 @@ export default function RuempelkraftWebsite() {
       text: 'Effiziente Räumungen von Geschäftslokalen und Büros.',
     },
     {
-      title: 'Entsorgung',
-      text: 'Umweltgerechte Entsorgung und Recycling.',
+      title: 'Abriss',
+      text: 'Auch kleinere Abrissarbeiten stehen am Plan.',
     },
   ];
 
@@ -62,7 +62,7 @@ export default function RuempelkraftWebsite() {
               </a>
 
               <a
-                href="tel:+43123456789"
+                href="https://wa.me/436641666474"
                 className="rounded-2xl border border-zinc-300 px-6 py-4 font-semibold"
               >
                 Jetzt anrufen
@@ -113,7 +113,7 @@ export default function RuempelkraftWebsite() {
           <div className="mt-10 grid gap-4 md:grid-cols-3">
             <div className="rounded-3xl bg-white/10 p-6">
               <p className="text-sm uppercase">Telefon</p>
-              <p className="mt-3 text-2xl font-bold">+43 123 456789</p>
+              <p className="mt-3 text-2xl font-bold">+43 664 1666474</p>
             </div>
 
             <div className="rounded-3xl bg-white/10 p-6">
@@ -123,7 +123,7 @@ export default function RuempelkraftWebsite() {
 
             <div className="rounded-3xl bg-white/10 p-6">
               <p className="text-sm uppercase">Standort</p>
-              <p className="mt-3 text-2xl font-bold">Wien & Umgebung</p>
+              <p className="mt-3 text-2xl font-bold">Graz & Umgebung</p>
             </div>
           </div>
         </div>
