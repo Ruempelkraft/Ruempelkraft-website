@@ -15,8 +15,8 @@ export default function RuempelkraftWebsite() {
       text: 'Effiziente Räumungen von Geschäftslokalen und Büros.',
     },
     {
-      title: 'Entsorgung',
-      text: 'Umweltgerechte Entsorgung und Recycling.',
+      title: 'Abriss',
+      text: 'Kleinere Abriss arbeiten im gesetzlichen Rahmen stehen auch am Plan.',
     },
   ];
 
