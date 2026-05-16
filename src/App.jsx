@@ -35,7 +35,7 @@ export default function RuempelkraftWebsite() {
           </div>
 
           <a
-            href="#kontakt"
+            href="mailto:office@ruempelkraft.at?subject=Angebot%20anfragen"
             className="rounded-2xl bg-yellow-400 px-5 py-2 text-sm font-bold text-black shadow-[0_0_25px_rgba(250,204,21,0.9)] transition hover:scale-105"
           >
             Angebot anfragen
