@@ -133,7 +133,7 @@ export default function RuempelkraftWebsite() {
 
       {/* TELEFON */}
       <a
-        href="tel:+436601234567"
+        href="tel:+436641666474"
         className="rounded-3xl border border-zinc-800 bg-zinc-900 p-6 transition hover:border-yellow-300 hover:scale-105"
       >
         <p className="text-sm uppercase text-zinc-400">
@@ -141,13 +141,13 @@ export default function RuempelkraftWebsite() {
         </p>
 
         <p className="mt-3 text-2xl font-bold text-yellow-300">
-          +43 660 1234567
+          +43 664 1666474
         </p>
       </a>
 
       {/* EMAIL */}
       <a
-        href="mailto:office@ruempelkraft.at"
+        href="mailto:info@ruempelkraft.at"
         className="rounded-3xl border border-zinc-800 bg-zinc-900 p-6 transition hover:border-yellow-300 hover:scale-105"
       >
         <p className="text-sm uppercase text-zinc-400">
@@ -155,7 +155,7 @@ export default function RuempelkraftWebsite() {
         </p>
 
         <p className="mt-3 text-2xl font-bold text-yellow-300 break-all">
-          office@ruempelkraft.at
+          info@ruempelkraft.at
         </p>
       </a>
 
