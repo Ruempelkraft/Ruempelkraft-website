@@ -120,50 +120,64 @@ export default function RuempelkraftWebsite() {
         </div>
       </section>
 
-      <section
-        id="kontakt"
-        className="border-t border-zinc-800 bg-yellow-400 py-24"
+<section
+  id="kontakt"
+  className="border-t border-zinc-800 bg-black py-24"
+>
+  <div className="mx-auto max-w-5xl px-6 text-center">
+    <h3 className="text-5xl font-black text-yellow-300">
+      Jetzt kostenlos anfragen
+    </h3>
+
+    <div className="mt-10 grid gap-4 md:grid-cols-3">
+
+      {/* TELEFON */}
+      <a
+        href="tel:+436601234567"
+        className="rounded-3xl border border-zinc-800 bg-zinc-900 p-6 transition hover:border-yellow-300 hover:scale-105"
       >
-        <div className="mx-auto max-w-5xl px-6 text-center">
-          <h3 className="text-5xl font-black text-black">
-            Jetzt kostenlos anfragen
-          </h3>
+        <p className="text-sm uppercase text-zinc-400">
+          Telefon
+        </p>
 
-          <div className="mt-10 grid gap-4 md:grid-cols-3">
-            
-            <div className="rounded-3xl bg-black p-6">
-              <p className="text-sm uppercase text-yellow-400">
-                Telefon
-              </p>
+        <p className="mt-3 text-2xl font-bold text-yellow-300">
+          +43 660 1234567
+        </p>
+      </a>
 
-              <p className="mt-3 text-2xl font-bold text-white">
-                +43 664 1666474
-              </p>
-            </div>
+      {/* EMAIL */}
+      <a
+        href="mailto:office@ruempelkraft.at"
+        className="rounded-3xl border border-zinc-800 bg-zinc-900 p-6 transition hover:border-yellow-300 hover:scale-105"
+      >
+        <p className="text-sm uppercase text-zinc-400">
+          E-Mail
+        </p>
 
-            <div className="rounded-3xl bg-black p-6">
-              <p className="text-sm uppercase text-yellow-400">
-                E-Mail
-              </p>
+        <p className="mt-3 text-2xl font-bold text-yellow-300 break-all">
+          office@ruempelkraft.at
+        </p>
+      </a>
 
-              <p className="mt-3 text-2xl font-bold text-white">
-                office@ruempelkraft.at
-              </p>
-            </div>
+      {/* STANDORT */}
+      <a
+        href="https://maps.google.com/?q=Graz"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="rounded-3xl border border-zinc-800 bg-zinc-900 p-6 transition hover:border-yellow-300 hover:scale-105"
+      >
+        <p className="text-sm uppercase text-zinc-400">
+          Standort
+        </p>
 
-            <div className="rounded-3xl bg-black p-6">
-              <p className="text-sm uppercase text-yellow-400">
-                Standort
-              </p>
+        <p className="mt-3 text-2xl font-bold text-yellow-300">
+          Graz & Umgebung
+        </p>
+      </a>
 
-              <p className="mt-3 text-2xl font-bold text-white">
-                Graz & Umgebung
-              </p>
-            </div>
-
-          </div>
-        </div>
-      </section>
+    </div>
+  </div>
+</section>
 
       <a
         href="https://wa.me/436641666474"
