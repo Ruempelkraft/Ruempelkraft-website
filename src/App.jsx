@@ -25,7 +25,7 @@ export default function RuempelkraftWebsite() {
       <header className="border-b border-zinc-800 bg-black">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <div>
-            <h1 className="text-2xl font-black text-yellow-300">
+            <h1 className="text-2xl font-black text-yellow-400">
               RümpelKraft
             </h1>
 
@@ -36,7 +36,7 @@ export default function RuempelkraftWebsite() {
 
           <a
             href="#kontakt"
-            className="rounded-2xl bg-yellow-300 px-5 py-2 text-sm font-semibold text-black shadow-[0_0_25px_rgba(253,224,71,0.8)] transition hover:scale-105"
+            className="rounded-2xl bg-yellow-400 px-5 py-2 text-sm font-bold text-black shadow-[0_0_25px_rgba(250,204,21,0.9)] transition hover:scale-105"
           >
             Angebot anfragen
           </a>
@@ -45,14 +45,15 @@ export default function RuempelkraftWebsite() {
 
       <section className="bg-gradient-to-br from-black via-zinc-900 to-black">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 py-24 lg:grid-cols-2 lg:items-center">
+          
           <div>
-            <div className="mb-6 inline-flex rounded-full border border-yellow-300/30 bg-yellow-300/10 px-4 py-2 text-sm font-medium text-yellow-300">
+            <div className="mb-6 inline-flex rounded-full border border-yellow-400/30 bg-yellow-400/10 px-4 py-2 text-sm font-medium text-yellow-400">
               Schnell • Zuverlässig • Professionell
             </div>
 
             <h2 className="text-5xl font-black leading-tight md:text-6xl">
               Entrümpelung mit
-              <span className="text-yellow-300">
+              <span className="text-yellow-400">
                 {' '}Kraft & Vertrauen
               </span>
             </h2>
@@ -65,14 +66,14 @@ export default function RuempelkraftWebsite() {
             <div className="mt-8 flex flex-wrap gap-4">
               <a
                 href="#kontakt"
-                className="rounded-2xl bg-yellow-300 px-6 py-4 font-semibold text-black shadow-[0_0_25px_rgba(253,224,71,0.8)] transition hover:scale-105"
+                className="rounded-2xl bg-yellow-400 px-6 py-4 font-bold text-black shadow-[0_0_25px_rgba(250,204,21,0.9)] transition hover:scale-105"
               >
                 Kostenloses Angebot
               </a>
 
               <a
                 href="tel:+43123456789"
-                className="rounded-2xl border border-zinc-700 px-6 py-4 font-semibold hover:border-yellow-300 hover:text-yellow-300"
+                className="rounded-2xl border border-zinc-700 px-6 py-4 font-semibold hover:border-yellow-400 hover:text-yellow-400"
               >
                 Jetzt anrufen
               </a>
@@ -83,15 +84,16 @@ export default function RuempelkraftWebsite() {
             <img
               src={logo}
               alt="RümpelKraft Logo"
-              className="max-h-[500px] rounded-[32px] object-contain shadow-[0_0_50px_rgba(253,224,71,0.3)]"
-              />
+              className="max-h-[500px] rounded-[32px] bg-black p-4 object-contain shadow-[0_0_60px_rgba(250,204,21,0.5)]"
+            />
           </div>
+
         </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-24">
         <div className="max-w-2xl">
-          <p className="text-sm font-bold uppercase tracking-[0.2em] text-yellow-300">
+          <p className="text-sm font-bold uppercase tracking-[0.2em] text-yellow-400">
             Unsere Leistungen
           </p>
 
@@ -104,9 +106,9 @@ export default function RuempelkraftWebsite() {
           {services.map((service) => (
             <div
               key={service.title}
-              className="rounded-3xl border border-zinc-800 bg-zinc-900 p-8 transition hover:border-yellow-300 hover:shadow-[0_0_30px_rgba(253,224,71,0.2)]"
+              className="rounded-3xl border border-zinc-800 bg-zinc-900 p-8 transition hover:border-yellow-400 hover:shadow-[0_0_30px_rgba(250,204,21,0.2)]"
             >
-              <h4 className="text-xl font-bold text-yellow-300">
+              <h4 className="text-xl font-bold text-yellow-400">
                 {service.title}
               </h4>
 
@@ -120,43 +122,45 @@ export default function RuempelkraftWebsite() {
 
       <section
         id="kontakt"
-        className="border-t border-zinc-800 bg-black py-24"
+        className="border-t border-zinc-800 bg-yellow-400 py-24"
       >
         <div className="mx-auto max-w-5xl px-6 text-center">
-          <h3 className="text-5xl font-black text-yellow-300">
+          <h3 className="text-5xl font-black text-black">
             Jetzt kostenlos anfragen
           </h3>
 
           <div className="mt-10 grid gap-4 md:grid-cols-3">
-            <div className="rounded-3xl border border-zinc-800 bg-zinc-900 p-6">
-              <p className="text-sm uppercase text-zinc-400">
+            
+            <div className="rounded-3xl bg-black p-6">
+              <p className="text-sm uppercase text-yellow-400">
                 Telefon
               </p>
 
-              <p className="mt-3 text-2xl font-bold">
+              <p className="mt-3 text-2xl font-bold text-white">
                 +43 123 456789
               </p>
             </div>
 
-            <div className="rounded-3xl border border-zinc-800 bg-zinc-900 p-6">
-              <p className="text-sm uppercase text-zinc-400">
+            <div className="rounded-3xl bg-black p-6">
+              <p className="text-sm uppercase text-yellow-400">
                 E-Mail
               </p>
 
-              <p className="mt-3 text-2xl font-bold">
+              <p className="mt-3 text-2xl font-bold text-white">
                 office@ruempelkraft.at
               </p>
             </div>
 
-            <div className="rounded-3xl border border-zinc-800 bg-zinc-900 p-6">
-              <p className="text-sm uppercase text-zinc-400">
+            <div className="rounded-3xl bg-black p-6">
+              <p className="text-sm uppercase text-yellow-400">
                 Standort
               </p>
 
-              <p className="mt-3 text-2xl font-bold">
+              <p className="mt-3 text-2xl font-bold text-white">
                 Wien & Umgebung
               </p>
             </div>
+
           </div>
         </div>
       </section>
