@@ -137,7 +137,7 @@ export default function RuempelkraftWebsite() {
               </p>
 
               <p className="mt-3 text-2xl font-bold text-white">
-                +43 664 1 666 474
+                +43 664 1666474
               </p>
             </div>
 
