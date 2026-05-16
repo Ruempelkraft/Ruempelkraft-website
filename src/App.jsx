@@ -21,7 +21,7 @@ export default function RuempelkraftWebsite() {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen overflow-x-hidden bg-black text-white">
       <header className="border-b border-zinc-800 bg-black">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <div>
