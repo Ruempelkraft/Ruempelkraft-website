@@ -72,7 +72,7 @@ export default function RuempelkraftWebsite() {
               </a>
 
               <a
-                href="tel:+43123456789"
+                href="tel:+436641666474"
                 className="rounded-2xl border border-zinc-700 px-6 py-4 font-semibold hover:border-yellow-400 hover:text-yellow-400"
               >
                 Jetzt anrufen
@@ -137,7 +137,7 @@ export default function RuempelkraftWebsite() {
               </p>
 
               <p className="mt-3 text-2xl font-bold text-white">
-                +43 123 456789
+                +43 664 1 666 474
               </p>
             </div>
 
