@@ -157,7 +157,7 @@ export default function RuempelkraftWebsite() {
               </p>
 
               <p className="mt-3 text-2xl font-bold text-white">
-                Wien & Umgebung
+                Graz & Umgebung
               </p>
             </div>
 
